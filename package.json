@@ -1,0 +1,34 @@
+{
+  "name": "react-native-nmi-bridge",
+  "version": "1.0.0",
+  "description": "React Native NMI Bridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "/android",
+    "!/android/build",
+    "/ios",
+    "/src",
+    "/lib",
+    "/*.podspec"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strues/react-native-nmi-bridge.git"
+  },
+  "keywords": [
+    "react-native",
+    "nmi"
+  ],
+  "author": "Steven Truesdell <steven.truesdell@starlightsoftwaresolutions.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strues/react-native-nmi-bridge/issues"
+  },
+  "homepage": "https://github.com/strues/react-native-nmi-bridge#readme",
+  "devDependencies": {
+    "react-native": "^0.63.3"
+  }
+}
